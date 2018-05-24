@@ -1,3 +1,5 @@
+package stringsarrays;
+
 import java.util.HashSet;
 
 /**
