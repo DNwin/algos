@@ -1,5 +1,3 @@
-package com.nguyendennis.ch01stringsarrays;
-
 import java.util.HashSet;
 
 /**
