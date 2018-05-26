@@ -15,13 +15,16 @@ public class IsUnique {
        assert !isUniqueBitMask("hello") : "not unique";
        assert isUniqueBitMask("asdf") : "unique";
        assert isUniqueBitMask("") : "unique";
+       assert isUniqueBitMask("Abcdefgxyz123456") : "unique";
+       assert !isUniqueBitMask("AbcdefgxyzzZZ123456") : "not unique";
     }
 
     /**
      * Use of extra data structure.
-     * Runtime: O(n)
+     * Runtime Complexity: O(n)
+     * Space Complexity: O(c) - Size of character set
      * @param str
-     * @return
+     * @return isUnique
      */
     static boolean isUnique(String str) {
         HashSet<Character> characterSet = new HashSet<>();
@@ -37,14 +40,15 @@ public class IsUnique {
 
     /**
      * Use of bitmask to avoid extra data structure
-     * Runtime: O(n)
+     * Runtime Complexity: O(n)
+     * Space Complexity: O({size of int})
      * @param str
-     * @return
+     * @return isUnique
      */
     static boolean isUniqueBitMask(String str) {
         int bitMask = 0;
         for (int i = 0; i < str.length(); i++) {
-            char c = str.charAt(i);
+            int c = str.charAt(i) - 'a';
             if ((bitMask & (1 << c)) > 0) {
                 return false;
             }
