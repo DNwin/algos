@@ -22,7 +22,7 @@ public class IsUnique {
     /**
      * Use of extra data structure.
      * Runtime Complexity: O(n)
-     * Space Complexity: O(c) - Size of character set
+     * Space Complexity: O(1) - Size of character set
      * @param str
      * @return isUnique
      */
@@ -41,7 +41,7 @@ public class IsUnique {
     /**
      * Use of bitmask to avoid extra data structure
      * Runtime Complexity: O(n)
-     * Space Complexity: O({size of int})
+     * Space Complexity: O(1)
      * @param str
      * @return isUnique
      */

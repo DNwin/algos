@@ -43,7 +43,7 @@ public class CheckPermutation {
      * If the counts of a character from the second string ever dip below 0,
      * then that means it contains a different character.
      * Runtime Complexity: O(n)
-     * Space Complexity: O(c) - Size of the character set
+     * Space Complexity: O(1) - Size of the character set
      * @param s1 string 1
      * @param s2 string 2
      * @return isPermutation
