@@ -18,3 +18,11 @@ Each class should contain a `main` function that performs an `assert` on each re
 ### Intellj IDEA
 In the top menu, press Run > Edit Configurations > Defaults > Application > VM options.
 To enable the assertion feature for all applications, fill the VM options with `-ea`
+
+## Algorithms:
+
+### Strings and Arrays
+[IsUnique](src/stringsarrays/IsUnique.java)
+[CheckPermutation](src/stringsarrays/CheckPermutation.java)
+[URLify](src/stringsarrays/URLify.java)
+[PalindromePermutation](src/stringsarrays/PalindromePermutation.java)
