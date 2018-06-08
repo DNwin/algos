@@ -22,7 +22,11 @@ To enable the assertion feature for all applications, fill the VM options with `
 ## Algorithms:
 
 ### Strings and Arrays
+
 [IsUnique](src/stringsarrays/IsUnique.java)
+
 [CheckPermutation](src/stringsarrays/CheckPermutation.java)
+
 [URLify](src/stringsarrays/URLify.java)
+
 [PalindromePermutation](src/stringsarrays/PalindromePermutation.java)
